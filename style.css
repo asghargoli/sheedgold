@@ -1,0 +1,272 @@
+.top-header{
+    display: flex;
+    justify-content: space-between;  
+    background-color: rgb(212, 208, 208);
+    padding: 1rem 1rem; 
+}
+.down-header-items{
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: rgb(223, 223, 233);
+    padding: 1rem 1rem; 
+}
+.down-header{
+    
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+
+/*    لوگوی شید      */
+.first-circle {
+    background-color: rgb(177, 140, 39);
+    
+    position: relative;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+  }
+  .second-circle {
+    background-color: rgb(47, 37, 136);
+    
+    position: absolute;
+    overflow: hidden;
+
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+  }
+  .logo-text{
+    color:  rgb(177, 140, 39);
+    font-size: 14px ;
+    position: absolute;
+    top: 50px;
+    left: 22px;
+
+  }
+  .first-dot{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    top: 42px;
+    left: 80px;
+
+  }
+  .second-dot{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    top: 22px;
+    left: 75px;
+
+  }
+  .third-dot{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    top: 10px;
+    left: 62px;
+
+  }
+  .fourth-dot{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    top: 25px;
+    left: 27px;
+
+  }
+  .fifth-dot{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    top: 20px;
+    left: 27px;
+
+  }
+  .first-line{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 5px;
+    width: 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%; 
+    /* border-radius: 50%; */
+    top: 42px;
+    left: 62px;
+
+  }
+  .second-line{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+    transform: rotate(-40deg);
+
+    height: 5px;
+    width: 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%; 
+    rotate: 30%;
+    /* border-radius: 50%; */
+    top: 30px;
+    left: 60px;
+
+  }
+  .third-line{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+    transform: rotate(-55deg);
+
+    height: 5px;
+    width: 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%; 
+    rotate: 30%;
+    /* border-radius: 50%; */
+    top: 20px;
+    left: 50px;
+  }
+  
+  .fourth-line{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 20px;
+    width: 5px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%; 
+    /* border-radius: 50%; */
+    top: 5px;
+    left: 42px;
+
+  }
+  .fifth-line{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+    transform: rotate(55deg);
+
+    height: 5px;
+    width: 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%; 
+    rotate: 30%;
+    /* border-radius: 50%; */
+    top: 30px;
+    left: 15px;
+  }
+  .sixth-line{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+    transform: rotate(-55deg);
+
+    height: 5px;
+    width: 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%; 
+    rotate: 30%;
+    /* border-radius: 50%; */
+    top: 20px;
+    left: 50px;
+  }
+  .seventh-line{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 5px;
+    width: 15px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%; 
+    /* border-radius: 50%; */
+    top: 42px;
+    left: 12px;
+
+  }
+  .inner-circle{
+    background-color: rgb(177, 140, 39);
+    
+    position: absolute;
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    top: 30px;
+    left: 35px;
+
+  }
+  /* .grid-container{
+    display: grid;
+    height: 200px;
+
+  }
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  } */
+  /*    لوگوی شید  */
+  .grid-cont1{
+    height: 100vh;
+    display: grid;
+   
+    grid-template-rows: .1fr 1fr;
+    grid-template-columns: 1fr ;
+    
+  }
+  .first-title{
+    
+    text-align: center;
+  }
+  .main-image{
+    float: right;
+  }
+
+  
