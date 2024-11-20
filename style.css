@@ -1,23 +1,18 @@
 .top-header{
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
+    align-items: center;  
     background-color: rgb(212, 208, 208);
     padding: 1rem 1rem; 
 }
-.down-header-items{
-    display: flex;
-    justify-content: space-evenly; 
-    background-color: rgb(223, 223, 233);
-    padding: 1rem 1rem; 
-}
 .down-header{
-    
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(223, 223, 233);
+  padding: 1rem 1rem; 
 }
+
 
 
 /*    لوگوی شید      */
@@ -241,32 +236,94 @@
     left: 35px;
 
   }
-  /* .grid-container{
-    display: grid;
-    height: 200px;
+  /*    لوگوی شید پایان */
 
+  .title{
+    text-align: center;
+    padding: 1rem;
   }
-  .flex-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-  } */
-  /*    لوگوی شید  */
-  .grid-cont1{
-    height: 100vh;
+  .how-lazer-works{
+    display: inline-block;
+    
+  }
+  
+  @media (min-width:600px){
+    .main-page{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;   
+    }
+    .lazer-machine1{
+      float: left;
+      width: 300px;
+      padding: 5px;
+    }
+    .lazer-machine2{
+      float: left;
+      width: 300px;
+      padding: 10px;
+    }
+    .ournames{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      row-gap: 10px;
+    }
+  }
+  @media (max-width:600px){
+    .main-page{
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows: 1fr 1fr;   
+    }
+    .lazer-machine1{
+      float: left;
+      width: 150px;
+      padding: 5px;
+    }
+    .lazer-machine2{
+      float: left;
+      width: 150px;
+      padding: 10px;
+    }
+    .ournames{
+      display: grid;
+      grid-template-columns: 1fr 1fr  ;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      row-gap: 10px;
+    }
+  }
+  
+  
+
+  /* .grid-cont1{
+    
     display: grid;
    
-    grid-template-rows: .1fr 1fr;
+    grid-template-rows: .2fr 1fr;
     grid-template-columns: 1fr ;
     
   }
-  .first-title{
-    
+  .first-title{  
     text-align: center;
-  }
-  .main-image{
-    float: right;
+  } */
+  /* .how-lazer-works{
+
+  } */
+
+  /* .lazer-machine{
+    float: left;
   }
 
-  
+  .grid-cont2{
+    
+    display: grid;
+   
+    grid-template-rows: .1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
+  }
+  .second-title{  
+    grid-area: 1/1/2/5;
+    text-align: center;
+  } */
